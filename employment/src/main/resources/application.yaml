@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/employment
+    hikari:
+      username: postgres
+      password: password
+    driver-class-name: org.postgresql.Driver
+  liquibase:
+    test-rollback-on-update: true
